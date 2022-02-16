@@ -2,7 +2,7 @@
 FROM python:3.8-alpine
 
 # Копируем файл с зависимостями
-COPY . ./requirements.txt
+COPY ./requirements.txt .
 
 # Устанавливаем зависимости
 RUN pip install -r ./requirements.txt
